@@ -1,0 +1,26 @@
+{
+  "name": "lagou-positions-crawler",
+  "version": "1.0.0",
+  "description": "crawl positions of lagou by my own module crazy-crawler",
+  "main": "index.js",
+  "dependencies": {
+    "crazy-crawler": "0.1.13",
+    "mongoose": "5.0.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --delay --recursive --require test/env"
+  },
+  "keywords": [
+    "lagou",
+    "positions",
+    "crawler",
+    "crazy-crawler"
+  ],
+  "author": "Nathan",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
